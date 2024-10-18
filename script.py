@@ -53,14 +53,7 @@ def main():
             celsius = fahrenheit_to_celsius(fahrenheit)
             st.success(f"❄️ {fahrenheit}°F is {celsius:.2f}°C ❄️")
 
-    # Footer
-    st.markdown(
-        """
-        ---
-        Made with ❤️ using Streamlit
-        """, 
-        unsafe_allow_html=True
-    )
+    
 
 # Run the app
 if __name__ == "__main__":
